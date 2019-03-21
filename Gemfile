@@ -11,6 +11,8 @@ gem 'pg'
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+# jQuery and UJS
+gem 'jquery-rails'
 # Authentication
 gem 'devise'
 # Authorization
