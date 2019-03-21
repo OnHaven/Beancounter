@@ -18,6 +18,8 @@ gem 'pundit'
 # Templating
 gem 'haml'
 gem 'haml-rails'
+# Data driven testing
+gem 'datum'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes

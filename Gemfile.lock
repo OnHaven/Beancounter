@@ -68,6 +68,8 @@ GEM
       nokogiri (~> 1.8)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
+    datum (4.1.6)
+      rails (>= 4.1.7)
     devise (4.6.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -222,6 +224,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   chromedriver-helper
+  datum
   devise
   haml
   haml-rails
