@@ -1,7 +1,8 @@
 language: ruby
 rvm:
-  - 2.6.0
+  - 2.6.2
 before_script:
+  - gem install bundler rails
   - bundle exec rake db:create --all
   - bundle exec rake db:migrate
 script:
